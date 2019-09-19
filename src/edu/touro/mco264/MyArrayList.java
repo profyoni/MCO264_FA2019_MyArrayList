@@ -51,10 +51,7 @@ public class MyArrayList implements List<String> {
 
     private void ensureCapacity() {
         String [] temp = new String[backingStore.length * 2 +1];
-        for (int i=0;i< backingStore.length;i++)
-        {
-            temp[i] = backingStore[i];
-        }
+        System.arraycopy(backingStore, 0, temp, 0, backingStore.length);
         backingStore = temp;
     }
 
@@ -69,8 +66,12 @@ public class MyArrayList implements List<String> {
     }
 
     @Override
-    public boolean addAll(Collection<? extends String> c) {
-        return false;
+    public boolean addAll(Collection<? extends String> coll) {
+        for ( String s : coll)
+        {
+            this.add(s);
+        }
+        return true;
     }
 
     @Override

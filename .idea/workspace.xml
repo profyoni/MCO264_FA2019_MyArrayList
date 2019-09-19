@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3200001-34e1-44e6-be32-b1de841dc483" name="Default Changelist" comment="" />
+    <list default="true" id="d3200001-34e1-44e6-be32-b1de841dc483" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/touro/mco264/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/touro/mco264/MyArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/edu/touro/mco264/MyArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/edu/touro/mco264/MyArrayListTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +20,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Administrator\IdeaProjects\lists" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1QiHlBDoA64meUv7JEWPghnY83e" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -52,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyArrayListTest.add11">
+  <component name="RunManager" selected="JUnit.MyArrayListTest.foo">
     <configuration name="MyArrayListTest.add11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lists" />
       <extension name="coverage">
@@ -64,6 +79,22 @@
       <option name="PACKAGE_NAME" value="edu.touro.mco264" />
       <option name="MAIN_CLASS_NAME" value="edu.touro.mco264.MyArrayListTest" />
       <option name="METHOD_NAME" value="add11" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyArrayListTest.foo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lists" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.touro.mco264.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.touro.mco264" />
+      <option name="MAIN_CLASS_NAME" value="edu.touro.mco264.MyArrayListTest" />
+      <option name="METHOD_NAME" value="foo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,22 +132,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrayListTest.size" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lists" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.touro.mco264.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.touro.mco264" />
-      <option name="MAIN_CLASS_NAME" value="edu.touro.mco264.MyArrayListTest" />
-      <option name="METHOD_NAME" value="size" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MyArrayListTest.size1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lists" />
       <extension name="coverage">
@@ -135,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyArrayListTest.foo" />
         <item itemvalue="JUnit.MyArrayListTest.add11" />
         <item itemvalue="JUnit.MyArrayListTest.get" />
         <item itemvalue="JUnit.MyArrayListTest.isEmpty0" />
         <item itemvalue="JUnit.MyArrayListTest.size1" />
-        <item itemvalue="JUnit.MyArrayListTest.size" />
       </list>
     </recent_temporary>
   </component>
@@ -154,11 +169,23 @@
       <option name="presentableId" value="Default" />
       <updated>1568246644074</updated>
       <workItem from="1568246647699" duration="481000" />
-      <workItem from="1568675267375" duration="3746000" />
+      <workItem from="1568675267375" duration="4453000" />
+      <workItem from="1568848143760" duration="3337000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
