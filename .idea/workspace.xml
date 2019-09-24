@@ -67,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyArrayListTest.foo">
+  <component name="RunManager" selected="JUnit.MyArrayListTest.iterator">
     <configuration name="MyArrayListTest.add11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lists" />
       <extension name="coverage">
@@ -132,7 +132,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrayListTest.size1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyArrayListTest.iterator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lists" />
       <extension name="coverage">
         <pattern>
@@ -142,7 +142,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="edu.touro.mco264" />
       <option name="MAIN_CLASS_NAME" value="edu.touro.mco264.MyArrayListTest" />
-      <option name="METHOD_NAME" value="size1" />
+      <option name="METHOD_NAME" value="iterator" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyArrayListTest.iterator" />
         <item itemvalue="JUnit.MyArrayListTest.foo" />
         <item itemvalue="JUnit.MyArrayListTest.add11" />
         <item itemvalue="JUnit.MyArrayListTest.get" />
         <item itemvalue="JUnit.MyArrayListTest.isEmpty0" />
-        <item itemvalue="JUnit.MyArrayListTest.size1" />
       </list>
     </recent_temporary>
   </component>
@@ -170,8 +170,18 @@
       <updated>1568246644074</updated>
       <workItem from="1568246647699" duration="481000" />
       <workItem from="1568675267375" duration="4453000" />
-      <workItem from="1568848143760" duration="3337000" />
+      <workItem from="1568848143760" duration="3796000" />
+      <workItem from="1569280155209" duration="595000" />
+      <workItem from="1569280805703" duration="2994000" />
     </task>
+    <task id="LOCAL-00001" summary="iterators">
+      <created>1568852159808</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568852159808</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,10 +192,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="iterators" />
+    <option name="LAST_COMMIT_MESSAGE" value="iterators" />
   </component>
 </project>

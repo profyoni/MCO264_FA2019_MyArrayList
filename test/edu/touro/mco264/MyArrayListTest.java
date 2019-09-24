@@ -59,39 +59,57 @@ class MyArrayListTest {
     }
 
     @org.junit.jupiter.api.Test
+    void iterator() {
+        MyArrayList mal = new MyArrayList();
+        mal.add("A");
+        mal.add("B");
+        mal.add("C");
+
+        Iterator<String> it = mal.iterator();
+
+        assertTrue(it.hasNext());
+        assertEquals("A",it.next());
+        assertEquals("B",it.next());
+        assertEquals("C",it.next());
+        assertTrue( ! it.hasNext());
+    }
+
+    @org.junit.jupiter.api.Test
     void remove() {
     }
-    @org.junit.jupiter.api.Test
-    void foo() {
-        Foobar foobar = new Foobar();
-        for(String s : foobar)
-            System.out.println(s);
 
-        for (Iterator<String> iterator = foobar.iterator(); iterator.hasNext(); ) {
-            String s = iterator.next();
-            System.out.println(s);
-        }
+//    @org.junit.jupiter.api.Test
+//    void foo() {
+//        Foobar foobar = new Foobar();
+//        for(String s : foobar)
+//            System.out.println(s);
+//
+//        for (Iterator<String> iterator = foobar.iterator(); iterator.hasNext(); ) {
+//            String s = iterator.next();
+//            System.out.println(s);
+//        }
+//
+//    }
 
-    }
-    class MyIterator implements Iterator<String>
-    {
-        private int counter = 0;
-
-        @Override
-        public boolean hasNext() {
-            return counter < 5;
-        }
-
-        @Override
-        public String next() {
-            return counter++ + "";
-        }
-    }
-    class Foobar implements Iterable<String>
-    {
-        @Override
-        public Iterator<String> iterator() {
-            return new MyIterator();
-        }
-    }
+//    class MyIterator implements Iterator<String>
+//    {
+//        private int counter = 0;
+//
+//        @Override
+//        public boolean hasNext() {
+//            return counter < 5;
+//        }
+//
+//        @Override
+//        public String next() {
+//            return counter++ + "";
+//        }
+//    }
+//    class Foobar implements Iterable<String>
+//    {
+//        @Override
+//        public Iterator<String> iterator() {
+//            return new MyIterator();
+//        }
+//    }
 }

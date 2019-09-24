@@ -26,7 +26,23 @@ public class MyArrayList implements List<String> {
 
     @Override
     public Iterator<String> iterator() {
-        return null;
+        return new MyArrayList.MyListIterator();
+    }
+
+    private class MyListIterator implements Iterator<String> // (non static) inner class
+    {
+        private int index = 0;
+
+        @Override
+        public boolean hasNext() {
+            String index = "df";
+            return  this.index < MyArrayList.this.insertionPoint;
+        }
+
+        @Override
+        public String next() {
+            return backingStore[index++];
+        }
     }
 
     @Override
